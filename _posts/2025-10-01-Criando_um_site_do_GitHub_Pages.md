@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Criando_um_site_do_GitHub_Pages"
-date: 2025-10-01 14:15:0 -0300
+title: "Criando um site do GitHub Pages"
+date: 2025-10-01 14:15:00 -0300
 categories:
 ---
 
