@@ -1,5 +1,7 @@
 # Bem-vindo ao meu site profissional
 
+[Veja meus artigos](./posts)
+
 ## Sobre Mim
 
 Olá! Eu sou Caio Rodrigues, um Engenheiro de Software com 4 anos de experiência em análise de dados, formado pela USP em Sistemas de Informação.
@@ -13,9 +15,9 @@ Este site hospedará alguns artigos que serão compartilhamentos do meu conhecim
 Meus trabalhos alternativos estão fortemente vínculados ao meu tempo universitário. Eles são coisas como:
 
   - Frequento o The Dev's Conference de São Paulo. Venha me encontrar por lá, caso você também.
-  - Fiz parte da primeira turma do grupo extracurrícular de Ciência de Dados da EACH, o Hype: [https://www.instagram.com/hype.usp/]
-  - Organizei por três anos a Sistemas de Sistemas de Informação, convenção pública e gratuita que convidava pessoas capacitadas para se apresentar para a Universidade: [https://www.instagram.com/semanadesi/]
-  - Organizei, junto a outros colegas e professores, uma disciplina optativa para o curso. Ela se baseou em uma disciplina publicada, de mesmo nome, pelo MIT: [https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J]
+  - Fiz parte da primeira turma do grupo extracurrícular de Ciência de Dados da EACH, o Hype: [Link](https://www.instagram.com/hype.usp/)
+  - Organizei por três anos a Sistemas de Sistemas de Informação, convenção pública e gratuita que convidava pessoas capacitadas para se apresentar para a Universidade: [Link](https://www.instagram.com/semanadesi/)
+  - Organizei, junto a outros colegas e professores, uma disciplina optativa para o curso. Ela se baseou em uma disciplina publicada, de mesmo nome, pelo MIT: [Link](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
   - Já participei (e fiquei em segundo lugar) de alguns CTF. Eu sei os fundamentos de segurança, por mais que não seja o meu forte.
   - Costumo participar de hackathons. Programação competitiva, em prazos apertados, já é parte do meu trabalho normal. Ser premiado por isso deixa só mais divertido.
 

@@ -1,5 +1,5 @@
 layout: page
-title: "Posts"
+title: "posts"
 permalink: /posts
 
 # Lista de conteúdos
