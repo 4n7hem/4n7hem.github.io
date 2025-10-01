@@ -1,4 +1,7 @@
 layout: post
-title: "POST-TITLE"
+title: "Criando_um_site_do_GitHub_Pages"
 date: 2025-10-01 14:15:0 -0300
-categories: CATEGORY-1 CATEGORY-2
+categories:
+
+
+Teste :)
