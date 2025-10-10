@@ -123,7 +123,7 @@ A pasta de includes serve um diferente propósito. Enquanto você estiver escrev
 
 ```yaml
 <div>
- {% include algum_bagulho.html %}
+ {include algum_bagulho.html}
 </div>
 ```
 
