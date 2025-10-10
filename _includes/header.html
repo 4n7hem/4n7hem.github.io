@@ -1,13 +1,15 @@
-<nav class="">
-    <ul id="main-menu" data-nav-showing="false">      
-      {% assign current = page.url | downcase | split: '/' %}
-      <div class="flexbox-parent" style="display: flex; flex-wrap: wrap">
-          <li class="about-anc" style="display: inline">
-            <a class="nav-underline home {% if page.url == '/' %}current{% endif %}" href="{{site.url}}">Home</a>
-          </li>
-          <li style="display: inline">
-            <a class="nav-underline blog {% if page.url == '/blog/' %}current{% endif %}" href="{{site.url}}/posts">Blog</a>
-          </li>
-      </div>
-    </ul>
+<div>
+    <nav class="">
+        <ul id="main-menu" data-nav-showing="false">      
+        {% assign current = page.url | downcase | split: '/' %}
+        <div class="flexbox-parent" style="display: flex; flex-wrap: wrap">
+            <li class="about-anc" style="display: inline">
+                <a class="nav-underline home {% if page.url == '/' %}current{% endif %}" href="{{site.url}}">Home</a>
+            </li>
+            <li style="display: inline">
+                <a class="nav-underline blog {% if page.url == '/blog/' %}current{% endif %}" href="{{site.url}}/posts">Blog</a>
+            </li>
+        </div>
+        </ul>
     </nav>
+</div>
