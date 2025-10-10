@@ -44,7 +44,7 @@ Para uma lista de todos os temas disponibilizados, consultar a documentação of
 
 Se você sabe Markdown, todas as estruturas normais de Markdown funcionam pelo site. Então, no caso, eu vou focar em contar sobre como estruturar seu site como um site de verdade.
 Em tanto páginas quanto posts, é necessário colocar o que chamam de "frontheader" no texto em si. O frontheader deste post é algo assim:
-```
+```yaml
 ---
 layout: post
 title: "Criando um site do GitHub Pages"
@@ -64,7 +64,7 @@ As páginas devem ser os "hubs" centrais da informação do seu site. Eles devem
 
 Para definir por onde a página pode ser acessada, dentro do frontheader, você usará o campo `permalink`, que constrói o caminho a partir da raíz do site. Ou seja, no .md da minha página de posts, está escrito:
 
-```
+```yaml
 ---
 title: "Meus artigos"
 permalink: /posts
@@ -79,12 +79,12 @@ E isso leva ao caminho
 Você pode criar uma pasta chamada `_posts` na raíz do projeto. Ela carregará todos os posts que o seu site pode ter.
 Posts tem uma regra de nomenclatura, que é utilizada (provavelmente) pelo pipeline automático de implementação do site. A regra é:
 
-```
+```yaml
 ano-mes-dia-nome_do_post.md
 ```
 Quando você segue essa regra, o post poderá ser acessado em:
 
-```
+```yaml
 ./ano/mes/dia/nome_do_post.html
 ```
 
@@ -110,7 +110,7 @@ Crie uma pasta chamada `_layouts` e outra chamada `_includes`. Ambas servirão f
 
 A pasta de layouts serve para que os arquivos definidos nela sejam importados pelo frontheader das páginas principais. Quando você escrever:
 
-```
+```yaml
 ---
 layout: algo
 ---
@@ -121,7 +121,7 @@ A compilação do site está, na verdade, procurando por `./_layouts/algo.html` 
 A pasta de includes serve um diferente propósito. Enquanto você estiver escrevendo HTML, você pode (graças às maravilhas de bons padrões de código) reutilizar código escrito em vários lugares do site. Esta pasta é para especificamente isso. Você pode escrever o seguinte:
 
 
-```
+```yaml
 <div>
  {% include algum_bagulho.html %}
 </div>
