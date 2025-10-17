@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gerenciando seu cluster do OpenSearch / ElasticStack"
-date: 2025-10-01 14:15:00 -0300
+date: 2025-10-17 18:00:00 -0300
 categories:
 ---
 
