@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Criando um site do GitHub Pages"
-date: 2025-12-02 14:15:00 -0300
+date: 2025-10-01 13:15:00 -0300
 categories:
 author: Caio
 ---
@@ -51,6 +51,7 @@ layout: post
 title: "Criando um site do GitHub Pages"
 date: 2025-10-01 14:15:00 -0300
 categories:
+author: Caio
 ---
 ```
 Isso será necessário para várias coisas, como:
@@ -140,3 +141,40 @@ Antes de enviar suas mudanças para o GitHub, é muito útil você rodar o Jekyl
 
 O Jekyll é escrito em Ruby, então, é necessário instalar seu SDK antes. Em Linux, normalmente ele já vem instalado, e em Windows, ele pode ser configurado pelo _RubyInstaller_.
 
+### Adicione o Bundler
+
+Com o Ruby configurado, use seu gerenciador de pacotes para instalar o Bundler:
+
+```sh
+gem install bundler
+```
+
+### Instale as dependências do Jekyll
+
+Na raiz do seu projeto, crie um arquivo chamado **Gemfile**, contendo:
+
+```sh
+source 'https://rubygems.org'
+
+gem 'github-pages'
+
+gem "webrick", "~> 1.7"
+```
+
+E, após isso, só rode:
+
+```sh
+bundle install
+```
+
+Isso deve criar uma pasta `vendor/` com todos os plugins, incluindo o Jekyll. Além disso, como gerenciadores de pacotes, isso irá gerar um `Gemfile.lock` Lembre-se de adicionar ambos no seu `.gitignore` !
+
+### Só rodar
+
+Para testar o site, escreva no terminal, na pasta relevante:
+
+```sh
+bundle exec jekyll serve
+```
+
+Que vai iniciar um servidor padrão na máquina host. Como todo servidor de desenvolvimento web, salvar alterações em arquivos fará o site se recompilar automaticamente e processar as mudanças.
