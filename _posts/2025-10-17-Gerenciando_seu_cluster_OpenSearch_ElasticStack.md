@@ -3,6 +3,7 @@ layout: post
 title: "Gerenciando seu cluster do OpenSearch / ElasticStack"
 date: 2025-10-17 18:00:00 -0300
 categories:
+author: Caio
 ---
 
 Tanto o OpenSearch quanto o ElasticStack são ótimos bancos de dados não relacionais. Eles dão já fora-da-caixa um stack completo para qualquer coisa que se espera para um banco: APIs para armazenamento e consumo inteligente da informação, ferramentas de dashboard integradas, sintáxe inteligente e própria para queries detalhadas, gestão de acesso customizável e integrável, funcionalidades de distribuição e redundância nativas da ferramenta, você escolhe. Provavelmente tem.

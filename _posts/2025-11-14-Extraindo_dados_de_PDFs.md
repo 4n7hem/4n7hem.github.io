@@ -3,6 +3,7 @@ layout: post
 title: "Extraindo dados de PDFs para análise e/ou treinamento"
 date: 2025-11-14 18:00:00 -0300
 categories:
+author: Caio
 ---
 
 O formato de arquivo PDF é um dos mais populares ao redor do ecossistema empresarial. Ele tem amplo suporte, é estável, de forma de que as páginas sempre se mostram iguais independente do tamanho do monitor de quem vê, e até browsers possuem a funcionalidade de ler PDFs. Todos os programas de editores de texto (para documentação) e editores de imagem tem a capacidade de "Exportar para PDF".

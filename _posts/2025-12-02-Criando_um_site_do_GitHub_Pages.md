@@ -3,6 +3,7 @@ layout: post
 title: "Criando um site do GitHub Pages"
 date: 2025-12-02 14:15:00 -0300
 categories:
+author: Caio
 ---
 
 Então. Enquanto eu estava criando esse site, eu fui lendo a [Documentação oficial](https://docs.github.com/en/pages) do GitHub sobre como montar, mas várias dúvidas não documentadas ficaram surgindo.
